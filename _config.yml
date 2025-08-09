@@ -23,7 +23,7 @@ author:
   links:
     - label: "aman0patel@gmail.com"
       icon: "fas fa-fw fa-envelope"
-      # no url → will display as plain text
+      url : '#'
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/AmanPatel117"
