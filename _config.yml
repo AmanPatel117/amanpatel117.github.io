@@ -20,12 +20,13 @@ search: true
 # Author (left sidebar)
 author:
   name: "Aman Patel"
-  avatar: "/assets/images/headshot.jpeg"
+  avatar: "{{ site.baseurl }}/assets/images/headshot.jpeg"
   bio: "Data Scientist • Georgia Tech MSA (’25). Practical ML, NLP, GenAI, and analytics for social impact."
   location: "Atlanta, GA"
   links:
     - label: "aman0patel@gmail.com"
       icon: "fas fa-fw fa-envelope"
+      # no url → will display as plain text
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/AmanPatel117"
