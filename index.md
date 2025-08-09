@@ -23,7 +23,7 @@ feature_row:
 Hello! I'm a Master's student in Computational Data Science at Georgia Tech with a strong
 foundation in mathematics and a passion for building machine learning systems that solve
 real-world problems. I have experience working with data and AI across a wide variety of
-fields, including finance, sustainability, academia, and tech.
+fields, including finance, sustainability, academia, and tech.<br><br>
   
 My current interests lie at the intersection of data science, applied machine learning, and natural language processing
 and LLMs. I'm particularly drawn to:
