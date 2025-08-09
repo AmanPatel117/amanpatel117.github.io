@@ -7,7 +7,7 @@ cta_label: "See My Resume"
 cta_url: "/assets/docs/Aman_Patel_resume.pdf"
 
 feature_row:
-  - image_path: "/assets/images/racquet.png"
+  - image_path: "/assets/images/racquet.jpg"
     title: "Tennis Analytics"
     url: "/projects/tennis-analytics/"
     btn_label: "Details"
