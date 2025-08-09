@@ -16,6 +16,11 @@ feature_row:
     title: "Deep Learning EV Battery Simulation"
     url: "/projects/unc-rtsg/"
     btn_label: "Details"
+  btn_class: "btn--primary"
+  - image_path: "/assets/images/headshot.jpeg"
+    title: "Injury Prediction for Runners"
+    url: "/projects/running/"
+    btn_label: "Details"
     btn_class: "btn--primary"
 ---
 
