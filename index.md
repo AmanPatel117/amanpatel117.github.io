@@ -7,29 +7,33 @@ excerpt: "Greetings! I'm currently pursuing my Master's in Analytics at Georgia 
 cta_label: "See My Resume"
 cta_url: "/assets/docs/Aman_Patel_resume.pdf"
 
-# Hard-coded cards for the home page
 feature_row:
-  - title: "BlueConduit — GenAI tooling & survival modeling"
+  - image_path: /assets/images/headshot.jpg
+    title: "BlueConduit — GenAI tooling & survival modeling"
     excerpt: "LLM scraping + LangChain internal tools; Databricks with drift monitoring; NN survival modeling."
     url: "/projects/blueconduit/"
     btn_label: "Details"
     btn_class: "btn--primary"
-  - title: "State Farm — RAG Q&A and exec analytics"
+  - image_path: /assets/images/headshot.jpg
+    title: "State Farm — RAG Q&A and exec analytics"
     excerpt: "RAG (LlamaIndex) saved 50+ analyst hours; SQL for claim payout; Power BI on policy → conversion."
     url: "/projects/state-farm/"
     btn_label: "Details"
     btn_class: "btn--primary"
-  - title: "Tremau — Semantic search recommender"
+  - image_path: /assets/images/headshot.jpg
+    title: "Tremau — Semantic search recommender"
     excerpt: "OpenAI + Pinecone vector search; NN/GBM classification (75%+ acc)."
     url: "/projects/tremau/"
     btn_label: "Details"
     btn_class: "btn--primary"
-  - title: "GT FSIL — IPO S-1 NLP"
+  - image_path: /assets/images/headshot.jpg
+    title: "GT FSIL — IPO S-1 NLP"
     excerpt: "Regex parsing for 1,000+ S-1 filings; readability & sentiment vs IPO performance."
     url: "/projects/gt-fsil/"
     btn_label: "Details"
     btn_class: "btn--primary"
-  - title: "UNC RTSG — EV battery simulation"
+  - image_path: /assets/images/headshot.jpg
+    title: "UNC RTSG — EV battery simulation"
     excerpt: "+2% battery lifespan by integrating LSTM driving models."
     url: "/projects/unc-rtsg/"
     btn_label: "Details"
