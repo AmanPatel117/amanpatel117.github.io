@@ -22,6 +22,23 @@ feature_row:
     btn_class: "btn--primary"
 ---
 
+<!-- make project card images a consistent size -->
+<style>
+/* uniform teaser area */
+.feature__wrapper .archive__item-teaser {
+  height: 180px;          /* tweak to taste (150–220px) */
+  overflow: hidden;
+  border-radius: 0.5rem;  /* optional: rounded corners */
+}
+/* scale & crop images to fill */
+.feature__wrapper .archive__item-teaser img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+</style>
+
 <p class="lead">
 Hello! I'm a Master's student in Computational Data Science at Georgia Tech with a strong
 foundation in mathematics and a passion for building machine learning systems that solve
