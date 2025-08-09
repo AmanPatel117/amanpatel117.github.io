@@ -1,9 +1,3 @@
-
-# Site settings
-locale: en-US
-title: "Home Page"
-name: "Aman Patel"
-
 # Build settings
 remote_theme: mmistakes/minimal-mistakes@4.24.0
 plugins:
