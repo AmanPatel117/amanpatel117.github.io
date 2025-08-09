@@ -16,9 +16,7 @@ feature_row:
 ---
 
 <p class="lead">
-Greetings! I'm currently pursuing my Master's in Analytics at Georgia Tech (’26). 
-I love building practical data products—NLP, recommender systems, and GenAI—so teams 
-can make faster, better decisions.
+Hello! I'm a graduate student in **Data Science** at Georgia Tech with a strong foundation in **Mathematics** and a passion for building machine learning systems that solve real-world problems. I have experience working with data and AI across a wide variety of fields, including finance, sustainability, academia, and tech.
 </p>
 
 ## Latest works
