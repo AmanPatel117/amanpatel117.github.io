@@ -1,6 +1,6 @@
 
 main:
   - title: "Portfolio"
-    url: /portfolio/
+    url: /index.md
   - title: "Resume"
-    url: /resume/
+    url: /assets/docs/Aman_Patel_resume.pdf
