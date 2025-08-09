@@ -14,7 +14,7 @@ feature_row:
     btn_class: "btn--primary"
   - image_path: "/assets/images/headshot.jpeg"
     title: "Deep Learning EV Battery Simulation"
-    url: "/_projects/unc-rtsg/"
+    url: "/projects/unc-rtsg/"
     btn_label: "Details"
     btn_class: "btn--primary"
 ---
