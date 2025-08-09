@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "UNC RTSG — EV battery simulation"
+title: "UNC Real Time Systems Group — EV battery simulation"
 excerpt: "+2% battery lifespan by integrating LSTM driving models."
 thumb: /assets/images/headshot.jpg
 weight: 5
