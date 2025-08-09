@@ -8,9 +8,13 @@ cta_url: "/assets/docs/Aman_Patel_resume.pdf"
 
 feature_row:
   - image_path: "/assets/images/headshot.jpeg"
-    title: "UNC RTSG — EV battery simulation"
-    excerpt: "+2% battery lifespan by integrating LSTM driving models."
-    url: "/projects/unc-rtsg/"
+    title: "Tennis Analytics"
+    url: "/_projects/unc-rtsg/"
+    btn_label: "Details"
+    btn_class: "btn--primary"
+  - image_path: "/assets/images/headshot.jpeg"
+    title: "Deep Learning EV Battery Simulation"
+    url: "/_projects/unc-rtsg/"
     btn_label: "Details"
     btn_class: "btn--primary"
 ---
