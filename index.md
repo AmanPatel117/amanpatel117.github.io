@@ -18,17 +18,15 @@ feature_row:
 <p class="lead">
 Hello! I'm a Master's student in Computational Data Science at Georgia Tech with a strong
 foundation in mathematics and a passion for building machine learning systems that solve
-real-world problems. I have experience working with data and AI across a wide variety of
-fields, including finance, sustainability, academia, and tech. My current interests lie at
-the intersection of data science, applied machine learning, and natural language processing
-and LLMs.  
-
-I'm particularly drawn to:
-- **Data Science**: data cleaning, feature engineering, data encoding
-- **Machine Learning**: statistical learning, optimization, deep learning
-- **LLM Applications**: prompt engineering, Retrieval Augmented Generation, Agentic AI
-
+real-world problems.
 </p>
+
+<ul>
+  <li><strong>Data Science</strong>: data cleaning, feature engineering, data encoding</li>
+  <li><strong>Machine Learning</strong>: statistical learning, optimization, deep learning</li>
+  <li><strong>LLM Applications</strong>: prompt engineering, Retrieval Augmented Generation, Agentic AI</li>
+</ul>
+
 
 ## Latest works
 
