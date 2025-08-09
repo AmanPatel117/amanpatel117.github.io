@@ -3,9 +3,6 @@
 locale: en-US
 title: "Home Page"
 name: "Aman Patel"
-description: >-
-  MSA student at Georgia Tech focused on practical, high‑impact data science—
-  NLP, recommender systems, ML engineering, and GenAI. Graduating 2025.
 
 # Build settings
 remote_theme: mmistakes/minimal-mistakes@4.24.0
@@ -21,7 +18,7 @@ search: true
 author:
   name: "Aman Patel"
   avatar: "/assets/images/headshot.jpeg"
-  bio: "Data Scientist • Georgia Tech MSA (’25). Practical ML, NLP, GenAI, and analytics for social impact."
+  bio: "Computational Data Analytics @ Georgia Tech"
   location: "Atlanta, GA"
   links:
     - label: "aman0patel@gmail.com"
