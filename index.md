@@ -14,7 +14,7 @@ feature_row:
   - image_path: "{{ site.baseurl }}/assets/images/headshot.jpeg"
     title: "UNC RTSG — EV battery simulation"
     excerpt: "+2% battery lifespan by integrating LSTM driving models."
-    url: "{{ site.baseurl }}/projects/unc-rtsg/"
+    url: "{{ site.baseurl }}/_projects/unc-rtsg/"
     btn_label: "Details"
     btn_class: "btn--primary"
 ---
