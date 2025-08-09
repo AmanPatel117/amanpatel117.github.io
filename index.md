@@ -16,7 +16,7 @@ feature_row:
     title: "Deep Learning EV Battery Simulation"
     url: "/projects/unc-rtsg/"
     btn_label: "Details"
-  btn_class: "btn--primary"
+    btn_class: "btn--primary"
   - image_path: "/assets/images/headshot.jpeg"
     title: "Injury Prediction for Runners"
     url: "/projects/running/"
@@ -29,7 +29,6 @@ Hello! I'm a Master's student in Computational Data Science at Georgia Tech with
 foundation in mathematics and a passion for building machine learning systems that solve
 real-world problems. I have experience working with data and AI across a wide variety of
 fields, including finance, sustainability, academia, and tech.<br><br>
-  
 My current interests lie at the intersection of data science, applied machine learning, and natural language processing
 and LLMs. I'm particularly drawn to:
 </p>
@@ -39,7 +38,6 @@ and LLMs. I'm particularly drawn to:
   <li><strong>Machine Learning</strong>: statistical learning, optimization, deep learning</li>
   <li><strong>LLM Applications</strong>: prompt engineering, Retrieval Augmented Generation, Agentic AI</li>
 </ul>
-
 
 ## Latest works
 
