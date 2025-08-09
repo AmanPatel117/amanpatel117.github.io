@@ -20,7 +20,7 @@ search: true
 # Author (left sidebar)
 author:
   name: "Aman Patel"
-  avatar: "/assets/images/headshot.jpg"
+  avatar: "/assets/images/headshot.jpeg"
   bio: "Data Scientist • Georgia Tech MSA (’25). Practical ML, NLP, GenAI, and analytics for social impact."
   location: "Atlanta, GA"
   links:
