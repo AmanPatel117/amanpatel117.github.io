@@ -39,6 +39,6 @@ and LLMs. I'm particularly drawn to:
   <li><strong>LLM Applications</strong>: prompt engineering, Retrieval Augmented Generation, Agentic AI</li>
 </ul>
 
-## Latest works
+## My Projects
 
 {% include feature_row %}
