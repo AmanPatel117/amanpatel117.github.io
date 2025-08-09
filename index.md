@@ -22,20 +22,13 @@ feature_row:
     btn_class: "btn--primary"
 ---
 
-<!-- make project card images a consistent size -->
 <style>
-/* uniform teaser area */
-.feature__wrapper .archive__item-teaser {
-  height: 180px;          /* tweak to taste (150–220px) */
-  overflow: hidden;
-  border-radius: 0.5rem;  /* optional: rounded corners */
-}
-/* scale & crop images to fill */
 .feature__wrapper .archive__item-teaser img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  max-height: 160px;  /* Change this number for bigger/smaller images */
+  width: auto;
+  height: auto;
   display: block;
+  margin: 0 auto;
 }
 </style>
 
@@ -57,6 +50,3 @@ and LLMs. I'm particularly drawn to:
 ## My Projects
 
 {% include feature_row %}
-
-## Other Interests
-I like to spend my free time playing all racquet sports, basketball, volleyball, going to the gym, reading science fiction, and playing video games. I also have been playing piano since I was 5 and recently took a pottery class for the first time, which was an enjoyable experience despite me not being the best at the visual arts.
