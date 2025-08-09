@@ -9,7 +9,7 @@ cta_url: "/assets/docs/Aman_Patel_resume.pdf"
 feature_row:
   - image_path: "/assets/images/headshot.jpeg"
     title: "Tennis Analytics"
-    url: "/_projects/tennis-analytics/"
+    url: "/projects/tennis-analytics/"
     btn_label: "Details"
     btn_class: "btn--primary"
   - image_path: "/assets/images/headshot.jpeg"
