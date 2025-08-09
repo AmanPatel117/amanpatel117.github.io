@@ -1,6 +1,7 @@
-
 main:
   - title: "Portfolio"
-    url: /
+    url: /portfolio/
   - title: "Resume"
     url: /assets/Aman_Patel_resume.pdf
+    target: "_blank"
+    rel: "noopener"
