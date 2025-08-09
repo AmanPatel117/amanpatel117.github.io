@@ -57,3 +57,6 @@ and LLMs. I'm particularly drawn to:
 ## My Projects
 
 {% include feature_row %}
+
+## Other Interests
+I like to spend my free time playing all racquet sports, basketball, volleyball, going to the gym, reading science fiction, and playing video games. I also have been playing piano since I was 5 and recently took a pottery class for the first time, which was an enjoyable experience despite me not being the best at the visual arts.
