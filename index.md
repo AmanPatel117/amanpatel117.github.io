@@ -30,6 +30,21 @@ feature_row:
   display: block;
   margin: 0 auto;
 }
+/* Style for primary buttons */
+.btn--primary {
+  background: linear-gradient(135deg, #00c6ff, #0072ff); /* teal to blue */
+  border: none;
+  color: white !important;
+  padding: 0.6em 1.2em;
+  font-weight: 600;
+  border-radius: 6px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.btn--primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 114, 255, 0.3);
+}
 </style>
 
 <p class="lead">
