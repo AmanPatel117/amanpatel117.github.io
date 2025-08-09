@@ -1,2 +1,71 @@
-title: Aman Patel
-theme: jekyll-theme-minimal
+# Site settings
+locale: en-US
+title: "Aman Patel"
+name: "Aman Patel"
+description: >-
+  MSA student at Georgia Tech focused on practical, high‑impact data science—
+  NLP, recommender systems, ML engineering, and GenAI. Graduating 2025.
+
+# Build settings
+remote_theme: mmistakes/minimal-mistakes@4.24.0
+plugins:
+  - jekyll-include-cache
+
+# Theme skin + layout
+minimal_mistakes_skin: default
+breadcrumbs: true
+search: true
+logo: # optional small logo in navbar
+
+# Author (left sidebar)
+author:
+  name: "Aman Patel"
+  avatar: "/assets/images/headshot.jpg"
+  bio: "Data Scientist • Georgia Tech MSA (’25). Practical ML, NLP, GenAI, and analytics for social impact."
+  location: "Atlanta, GA"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:aman0patel@gmail.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/AmanPatel117"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/amanapatel/"
+
+# Navigation
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+# Defaults for pages and posts
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: false
+      read_time: false
+      share: false
+
+# Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/AmanPatel117"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/amanapatel/"
+
+# Analytics (optional)
+# google_analytics: G-XXXX
