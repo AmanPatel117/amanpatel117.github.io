@@ -3,8 +3,6 @@ layout: single
 classes: wide
 author_profile: true
 title: "About Me"
-cta_label: "See My Resume"
-cta_url: "/assets/docs/Aman_Patel_resume.pdf"
 
 feature_row:
   - image_path: "/assets/images/racquet.jpg"
