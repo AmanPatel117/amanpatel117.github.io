@@ -10,7 +10,7 @@ feature_row:
     url: "/projects/tennis-analytics/"
     btn_label: "Details"
     btn_class: "btn--primary"
-  - image_path: "/assets/images/racquet.jpg"
+  - image_path: "/assets/images/restaurant.webp"
     title: "Safe Diner ATL"
     url: "/projects/cx4242/"
     btn_label: "Details"
