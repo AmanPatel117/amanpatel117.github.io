@@ -22,4 +22,4 @@ After testing several types of models, it was determined that XGBoost had the be
 I pulled some old sports betting odds from Kaggle, and made sure that these matches were not in the training data. I simulated placing bets of equal increment based on the model output and was able to achieve a profit margin of 5%.
 
 # Future Work
-Currently, I am in the process of organizing my code and seeing if I can create a CI/CD pipeline where new match data is scraped periodically, and a new model is trained and deployed.
+Currently, I am in the process of organizing my code and creating an automated CI/CD pipeline where new match data is scraped periodically, and a new model is trained and deployed.
