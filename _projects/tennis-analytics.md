@@ -4,13 +4,14 @@ title: "Tennis Analytics"
 weight: 5
 permalink: /projects/tennis-analytics/
 ---
+[![View on GitHub](https://img.shields.io/badge/View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AmanPatel117/Tennis-Analytics-Project)
 
 # Goal
 The goal of this project is to create a model that can predict the winner of a tennis match given various data about the two players competing, such as their respective rankings, head to head and win ratio on the given surface.
 
 # Methodology
 ## Data Collection
-The data was collected by programatically scraping the ATP website for tournaments, players, rankings, and match results. The initial data is stored in 4 pandas dataframes one for each of tournaments, players, rankings, and match results.
+The data was collected by programatically scraping the ATP website for tournaments, players, rankings, and match results. The initial data is stored in 4 pandas dataframes one for each of tournaments, players, rankings, and match results. The total number of matches scraped is ~85,000.
 
 ## Feature Engineering
 To prepare a tabular dataset for modeling, I started off with the match results. Using merges and lookups, I was able to add features such as the ranking of each player, their head to head, precentage one of last 10 matches, and win percentage on the surface. Since the match dataset had the Winner as the player in the Player 1 column, I shuffled the data to avoid overfitting to that pattern.
