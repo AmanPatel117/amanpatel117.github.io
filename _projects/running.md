@@ -17,8 +17,8 @@ Each record corresponds to a runner over a given training period, with the targe
 
 ## Feature Engineering
 The preprocessing pipeline included:
+- Manually dropping features that were intuitively unnecessary
 - Encoding categorical variables such as gender and injury history
-- Creating aggregated features from training logs (weekly mileage, training frequency, intensity distribution)
 - Scaling numerical features for model stability
 
 ## Modeling
