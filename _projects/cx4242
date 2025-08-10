@@ -1,0 +1,67 @@
+---
+layout: single
+title: "Safe Diner ATL"
+weight: 5
+permalink: /projects/cx4242/
+---
+
+[![View on GitHub](https://img.shields.io/badge/View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](YOUR_GITHUB_LINK)
+
+# Goal
+The goal of this project is to predict the future health inspection score of restaurants in Atlanta using historical inspection data, violation counts, and other relevant factors. The predictions are presented through an interactive map-based web tool, allowing the public to quickly and intuitively assess food safety risks.
+
+# Methodology
+## Data Collection
+We obtained restaurant inspection data from the **Fulton County Open Data** portal, including inspection details, violation history, foodborne illness risk classification, and inspection purposes.  
+To enable geospatial analysis, we added latitude and longitude coordinates using the **U.S. Census Bureau** and **Google Maps Geocoding API**.
+
+- **Initial dataset size:** 71,986 records  
+- **Final dataset size after cleaning:** 70,715 records
+
+## Feature Engineering
+To improve predictive performance, we engineered and refined several features, including:
+- **Days Between Inspections** — time gap since the last inspection  
+- **Number of Violations** — aggregated from individual violation records  
+- **Follow-Up Needed** — binary indicator  
+- **Foodborne Illness Risk** — categorical variable  
+- One-hot encoding for categorical fields such as “Item” and simplified grouping for “Inspection Purpose”
+
+## Modeling
+We experimented with multiple models:
+- Linear Regression (Regular, Lasso, Ridge)
+- Random Forest
+- **XGBoost** (final choice)
+
+After hyperparameter tuning, **XGBoost** achieved the best performance with:
+- **RMSE = 1.4**
+- Parameters: `n_estimators=250`, `learning_rate=0.1`, `max_depth=6`
+
+Feature importance analysis showed that **Foodborne Illness Risk**, **Number of Violations**, and **Follow-Up Needed** were the top predictors.
+
+## Visualization
+We developed an **interactive color-coded map** of Atlanta:
+- Each restaurant is represented by a marker
+- Colors indicate predicted or actual score ranges
+- Users can filter by **zip code, cuisine, or rating**
+- Built using **Tableau** for easy public use
+
+![Feature Importance](path/to/feature_importance.png)  
+*Feature importance chart showing key predictors for health inspection scores.*
+
+![Atlanta Restaurant Map](path/to/map_visualization.png)  
+*Interactive map example of restaurant scores across Atlanta.*
+
+# Evaluation
+We deployed a survey via **Qualtrics** with 60+ participants:
+- **Usability:** Majority found the site intuitive and easy to navigate
+- **Primary use case:** Finding new restaurants (often beyond just avoiding foodborne illness)
+- **Audience:** Most respondents eat out at least twice a week
+
+While predictive accuracy on the test set is strong, real-world validation will occur over time as new inspection results become available.
+
+# Future Work
+- Expand coverage beyond Atlanta
+- Integrate sentiment analysis from online reviews
+- Improve prediction accuracy by incorporating additional datasets
+- Enhance user engagement with more personalized recommendations
+

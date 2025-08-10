@@ -1,4 +1,7 @@
 # Build settings
+title: ""
+header:
+  title: false
 remote_theme: mmistakes/minimal-mistakes@4.24.0
 plugins:
   - jekyll-include-cache
@@ -47,7 +50,9 @@ defaults:
       author_profile: false
       read_time: false
       share: false
-
+      breadcrumbs: false
+      pagination: false
+      
 # Footer
 footer:
   links:
