@@ -22,5 +22,4 @@ The preprocessing pipeline included:
 - Scaling numerical features for model stability
 
 ## Modeling
-Multiple classification algorithms were evaluated using both oversampling and undersampling to handle class imbalance, including Logistic Regression, Random Forest, and XGBoost.  
-The best-performing model was **XGBoost**, achieving a 60% overall accuracy rate, with 60% for injured prediction and 60% for non-injured prediction. While these metrics are not great, the work is a step in the right direction. Further work can be done to better understand and utilize the timeseries nature of the data to make predictions, rather than naively classify.
+Multiple classification algorithms were evaluated using both oversampling and undersampling to handle class imbalance, including Logistic Regression, Random Forest, and XGBoost. The best-performing model was **XGBoost**, achieving a 60% overall accuracy rate, with 60% for injured prediction and 60% for non-injured prediction. While these metrics are not great, the work is a step in the right direction. Further work can be done to better understand and utilize the timeseries nature of the data to make predictions, rather than naively classify.
