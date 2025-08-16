@@ -58,6 +58,6 @@ Across 34 six-month simulations:
 
 # Future Work
 - **Real-world data integration:** Collect trip and charging behavior from EV users to refine graph models  
-- **Advanced deep learning models:** Explore deeper LSTM and attention-based architectures with hyperparameter tuning  
+- **Simpler modeling:** Explore using simpler models such as Markov models as they may better fit our use case
 - **Adaptive mission length:** Remove the assumption of knowing daily mission length in advance  
 - **Scenario generation:** Develop algorithms to create varied, realistic test graphs  
