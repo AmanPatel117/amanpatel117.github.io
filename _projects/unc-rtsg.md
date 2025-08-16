@@ -48,12 +48,15 @@ Across 34 six-month simulations:
 
 - All predictive strategies **extended battery lifespan by ~100 days** compared to no balancing  
 - **LSTM-based predictions** and **most-likely missions** showed the best trade-off between extending lifespan and avoiding charge dips  
-- Results highlight the balance between **longevity** and **risk of error**, which can be further mitigated by adjusting thresholds  
+- Results highlight the balance between **longevity** and **risk of error**, which can be further mitigated by adjusting thresholds
 
-![Battery Lifespan](assets/images/battery_lifespan.png)  
+![Paired Scatterplot](assets/images/pairplot.png)
 *Simulation results comparing lifespan across balancing strategies.*
 
-![Charge Error](assets/images/simulation_error.png)  
+![Battery Lifespan](assets/images/Lifespan_Graph.png)
+*Simulation results comparing lifespan across balancing strategies.*
+
+![Charge Error](assets/images/Error_Graph.png)  
 *Maximum charge dips below safe threshold for each method.*
 
 # Future Work
