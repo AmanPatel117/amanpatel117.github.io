@@ -50,8 +50,8 @@ Across 34 six-month simulations:
 - **LSTM-based predictions** and **most-likely missions** showed the best trade-off between extending lifespan and avoiding charge dips  
 - Results highlight the balance between **longevity** and **risk of error**, which can be further mitigated by adjusting thresholds
 
-![Paired Scatterplot](https://amanpatel117.github.io/assets/images/Lifespan_Graph.png)
-*Simulation results comparing lifespan across balancing strategies.*
+![Paired Scatterplot](https://amanpatel117.github.io/assets/images/pairplot.png)
+*Paired scatter plot showing variations between several pairs of variables for different cell balancing strategies.*
 
 ![Battery Lifespan](https://amanpatel117.github.io/assets/images/Lifespan_Graph.png)
 *Simulation results comparing lifespan across balancing strategies.*
