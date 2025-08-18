@@ -7,7 +7,7 @@ weight: 5
 permalink: /projects/unc-rtsg/
 ---
 
-Link to Github coming soon!
+[![View on GitHub](https://img.shields.io/badge/View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)]([https://github.com/AmanPatel117/CX4242Project](https://github.com/Galfurian/battery-cell-balancing/tree/prediction))
 [![Read the Report](https://img.shields.io/badge/Read_Paper-FF6F61?style=for-the-badge)](/assets/docs/Driving_Pattern_Prediction_for_the_Optimization_of_Wear_Leveling_Aware_Cell_Balancing.pdf)
 
 # Goal
