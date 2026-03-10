@@ -42,12 +42,12 @@ defaults:
     values:
       layout: single
       author_profile: true
-      classes: wide
   - scope:
       path: ""
       type: projects
     values:
       layout: single
+      classes: wide
       author_profile: false
       read_time: false
       share: false
