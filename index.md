@@ -7,7 +7,7 @@ title: "About Me"
 research_projects:
   - image_path: "/assets/images/ipo_image.avif"
     title: "IPO Research"
-    url: "/projects/gt_fsil/"
+    url: "/projects/gt-fsil/"
     btn_label: "Details"
     btn_class: "btn--primary"
   
