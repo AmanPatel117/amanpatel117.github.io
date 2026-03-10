@@ -4,7 +4,7 @@ excerpt: "Regex parsing for 1,000+ S‑1 filings; readability & sentiment analys
 thumb: /assets/images/headshot.jpg
 weight: 4
 ---
-[![View on GitHub](https://img.shields.io/badge/View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AmanPatel117/Tennis-Analytics-Project)
+[![View on GitHub](https://img.shields.io/badge/View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gtfintechlab/IPO-Mine)
 [![Read the Report](https://img.shields.io/badge/Read_Paper-FF6F61?style=for-the-badge)] (Submitted to KDD 2025, Arxiv paper coming soon!)
 
 # Project Overview
