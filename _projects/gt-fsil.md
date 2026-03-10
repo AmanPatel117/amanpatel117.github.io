@@ -1,5 +1,7 @@
 ---
 title: "GT FSIL — IPO S‑1 NLP"
+layout: single
+classes: wide
 excerpt: "Regex parsing for 1,000+ S‑1 filings; readability & sentiment analysis to study disclosure quality vs IPO performance."
 thumb: /assets/images/headshot.jpg
 weight: 4
